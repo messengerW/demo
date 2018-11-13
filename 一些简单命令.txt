@@ -1,0 +1,30 @@
+git config --global user.name ''
+git config --global user.email ''
+git config --list			检查已有的配置信息
+mkdir <>				创建文件夹
+ls -a				查看项目目录
+git init				使用当前目录作为Git仓库
+git init newrepo			使用指定目录作为Git仓库
+git add *.c			将目录下以 .c 结尾的文件提交到仓库中
+git add README			将README 文件提交到仓库中
+git commit -m '初始化项目版本'	''内为日志
+git clone <git仓库>			 从现有 Git 仓库中拷贝项目到当前目录
+git clone <git仓库> <本地目录>	拷贝到指定目录
+git clone [url]			拷贝一个 Git 仓库到本地
+git status				显示你上次提交更新后的更改或者写入缓存的改动
+git add <>/./*			将工作区的文件添加到缓存区
+git diff				显示已写入缓存的改动
+git diff --cached			显示已修改但尚未写入缓存的改动
+git diff HEAD			查看已缓存的与未缓存的所有改动
+git commit -m '日志'		将缓存区内容添加到仓库中
+git reset HEAD<> 			取消已缓存的内容
+git rm <>				(执行该命令时，是未修改，直接删除文件)
+
+git rm -f <>			(若删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 -f)
+
+git rm --cached <>			(文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除)
+git mv <> <>			用于移动或重命名一个文件、目录、软连接
+git remote -v			查看当前配置的远程仓库
+git remote add origin https...git	连接远程仓库
+git push -u origin master		将缓存区改动推送到 Github
+git remote rm ''			删除仓库
