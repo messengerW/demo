@@ -28,3 +28,9 @@ git remote -v			查看当前配置的远程仓库
 git remote add origin https...git	连接远程仓库
 git push -u origin master		将缓存区改动推送到 Github
 git remote rm ''			删除仓库
+cd + ~				切换目录
+cd ..				返回上一级目录
+pwd				显示当前目录路径
+ls				显示当前目录下的所有文件
+touch + ~			新建一个文件夹
+reset				清屏
