@@ -1,12 +1,14 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<jsp:useBean id="student" class="msw.bean.Student" scope="session">
+</jsp:useBean>
 <html>
     <head>
         <title>Spring MVC表单处理</title>
     </head>
     <body>
 
-        <h2>提交的学生信息如下 - </h2>
+        <h2>Result</h2>
+        <jsp:getProperty name="student" property="age"/>
         <table>
             <tr>
                 <td>名称：</td>

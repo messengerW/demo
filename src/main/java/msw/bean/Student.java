@@ -1,4 +1,4 @@
-package msw.pojo;
+package msw.bean;
 
 /*
  * Created by mushr on 2019/6/28.
