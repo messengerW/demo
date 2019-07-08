@@ -9,9 +9,9 @@
 <html>
     <head>
         <title>MainPage</title>
-        <link rel = "stylesheet" href = "bootstrap/bootstrap.min.css">
-        <script src = "bootstrap/jquery-3.3.1.min.js"></script>
-        <script src = "bootstrap/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" href = "../statics/css/bootstrap.min.css">
+        <script src = "../statics/js/jquery-3.3.1.min.js"></script>
+        <script src = "../statics/js/bootstrap.min.js"></script>
         <style>
             ul {
                 list-style-type: none;
